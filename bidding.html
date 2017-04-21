@@ -123,8 +123,22 @@
           },
         };	
       });
-      
-       var adUnits = [{
+     
+
+    </script>
+  </head>
+  <body>
+    <h2>Header Bidding Test with Prebid.js</h2>
+    
+    <h5>Div-1</h5>
+    
+    <!--
+      TODO: Add the DFP tag here,
+      from https://github.com/barneytest/barneytest.github.io/blob/master/bidding-template-3.html
+    -->
+     <div id='div-gpt-ad-1486479040361-0'>
+      <script type='text/javascript'>
+         var adUnits = [{
           code: 'div-gpt-ad-1486479040361-0',
           sizes: [[300, 250]],
           bids: [{
@@ -143,18 +157,7 @@
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
         });
-
-    </script>
-  </head>
-  <body>
-    <h2>Header Bidding Test with Prebid.js</h2>
-    <h5>Div-1</h5>
-    <!--
-      TODO: Add the DFP tag here,
-      from https://github.com/barneytest/barneytest.github.io/blob/master/bidding-template-3.html
-    -->
-     <div id='div-gpt-ad-1486479040361-0'>
-      <script type='text/javascript'>
+       
         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1486479040361-0'); });
       </script>
 </div>
